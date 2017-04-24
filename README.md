@@ -9,3 +9,4 @@ Arquivos de configurações de ambiente que uso corriqueiramente.
 
 - **Linux**
     + **Bash** - `bash_profile.sh` - Bash Profile para sistemas Linux
+    + **Vim** - `.vimrc` - Configurações do VIM
