@@ -1,0 +1,15 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 12,
+    "workbench.colorTheme": "Darcula",
+    "files.autoSave": "afterDelay",
+    "emmet.includeLanguages": {
+        "javascript" : "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript" : "jsx",
+        "javascript" : "html"
+    },
+    "workbench.iconTheme": "material-icon-theme"
+}
