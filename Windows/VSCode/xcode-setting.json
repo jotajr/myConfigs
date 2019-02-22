@@ -1,15 +1,28 @@
 {
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Fira Code'",
-    "editor.fontSize": 12,
-    "workbench.colorTheme": "Darcula",
-    "files.autoSave": "afterDelay",
-    "emmet.includeLanguages": {
-        "javascript" : "javascriptreact"
-    },
-    "emmet.syntaxProfiles": {
-        "javascript" : "jsx",
-        "javascript" : "html"
-    },
-    "workbench.iconTheme": "material-icon-theme"
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "files.autoSaveDelay": 1000,
+  "workbench.colorTheme": "Darcula",
+  "files.autoSave": "afterDelay",
+  // The number of spaces a tab is equal to. This setting is overridden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.tabSize": 4,
+  // Insert spaces when pressing Tab. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.insertSpaces": true,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+  // will be detected based on the file contents. Set to false to keep
+  // the values you've explicitly set, above.
+  "editor.detectIndentation": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "javascript": "html"
+  },
+  "workbench.iconTheme": "material-icon-theme"
 }
