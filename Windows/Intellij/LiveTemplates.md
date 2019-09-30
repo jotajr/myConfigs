@@ -27,7 +27,8 @@ If you'd rather not import _all_ of my templates, you can clone this project and
 
 Live templates for Java:
 
-- Description: Comment for a java project with date. Shortcut: ```cmmusr``` 
+- **Description:** Comment for a java project with date. 
+- **Shortcut:** ```cmmusr``` 
 
 ```java
 /* $PROJETO$ - $AUTHOR$ - $DATE$ - INICIO */
@@ -36,14 +37,16 @@ $SELECTION$
 $END$
 ```
 
-- Description: Private String Variable Definition. Shortcut: ```pvstring```
+- **Description:** Private String Variable Definition. 
+- **Shortcut:** ```pvstring```
 
 ```java
 private String $VARNAME$;
 $END$
 ```
 
-- Description: Private int Variable Definition. Shortcut: ```pvint```
+- **Description:** Private int Variable Definition. 
+- **Shortcut:** ```pvint```
 
 ```java
 private int $VARNAME$;
@@ -54,14 +57,16 @@ $END$
 
 Live templates to work with Spring Boot
 
-- Description: Create a SLF4 LOGGER. Shortcut: ```createLog```
+- **Description:** Create a SLF4 LOGGER. 
+- **Shortcut:** ```createLog```
 
 ```java
 private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger($CLASS$);
 $END$
 ```
 
-- Description: Create a try with resources for a connection and preparedstatement with a resultset. Shortcut: ```connpreparedstmt``` 
+- **Description:** Create a try with resources for a connection and preparedstatement with a resultset. 
+- **Shortcut:** ```connpreparedstmt``` 
 
 ```java
 try (java.sql.Connection connection = dataSource.getConnection();
@@ -77,3 +82,22 @@ try (java.sql.Connection connection = dataSource.getConnection();
     catch (java.sql.SQLException e) {
          e.printStackTrace();
 }
+```
+
+- **Description:** Verify if Logger is in DEBUG mode.
+- **Shortcut:** ```isdebuglog```
+
+```java
+if(LOGGER.isDebugEnabled()) {
+    $END$
+}
+```
+
+- **Description:** Add a property value from file.properties
+- **Shortcut:** ```spvalue```
+
+```java
+@Value("${$PROPSNAME$}")
+private String $VARNAME$;
+$END$
+```
